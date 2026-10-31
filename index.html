@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVO Music Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: single readable column, quiet header, sections divided by a mono label rail on wide screens. */
+:root{
+  --bg:#f6f8fa; --surface:#ffffff; --fg:#14202b; --muted:#566676; --line:#d9e1e8;
+  --accent:#0a6f8f; --accent-soft:#e0f1f6;
+  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e161d; --surface:#142029; --fg:#e6edf3; --muted:#9aabb9; --line:#25353f;
+  --accent:#4cc2e0; --accent-soft:#12303a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e161d; --surface:#142029; --fg:#e6edf3; --muted:#9aabb9; --line:#25353f;
+  --accent:#4cc2e0; --accent-soft:#12303a; color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:16px;line-height:1.65;
+  padding-block:40px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:10px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.app{font-family:var(--font-mono);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(28px,6vw,38px);line-height:1.15;margin:0;font-weight:600;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;margin:0}
+h2{font-size:20px;margin:0 0 10px;font-weight:600;text-wrap:balance}
+p{margin:0 0 12px}
+section{min-width:0}
+ul{margin:0 0 12px;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.summary{background:var(--accent-soft);border-radius:10px;padding:18px 20px}
+.summary h2{margin-bottom:8px}
+.summary ul{margin:0}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th,td{text-align:left;padding:10px 14px;vertical-align:top;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-family:var(--font-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+td:first-child{font-weight:600;white-space:nowrap}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px}
+.contact p{margin:0 0 4px}
+footer{color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="app">AVO Music · iOS</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective October 30, 2026 · Developer: Murodilbek</p>
+</header>
+
+<section class="summary">
+  <h2>At a glance</h2>
+  <p>AVO Music is an offline music player. Your music, playlists and settings stay on your device. The app has no accounts, servers, ads or analytics.</p>
+  <ul>
+    <li><strong>No account.</strong> You never sign up or log in.</li>
+    <li><strong>No data collection.</strong> We do not collect, receive, sell or share your personal data.</li>
+    <li><strong>No tracking, ads or analytics.</strong> The app contains no advertising, analytics, crash-reporting or tracking SDKs.</li>
+    <li><strong>One optional network feature.</strong> If you tap "Search Lyrics Online", the song's title, artist, album and length are sent to the public lyrics service LRCLIB (lrclib.net). Nothing is sent otherwise.</li>
+    <li><strong>You are in control.</strong> Delete app data from Settings, or delete the app.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Data stored on your device</h2>
+  <p>AVO Music keeps the following only inside the app's storage on your device. The app never uploads it to us or to anyone else.</p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Data</th><th>What it is</th><th>Where it lives</th></tr></thead>
+    <tbody>
+      <tr><td>Audio files</td><td>Songs you import from Files or from your Apple Music library (copied into the app)</td><td>The app's "Music" folder, visible in the Files app because File Sharing is on</td></tr>
+      <tr><td>Song details</td><td>Title, artist, album, duration, file location, embedded cover art</td><td>App library data and artwork cache</td></tr>
+      <tr><td>Playlists and favorites</td><td>Playlists you create and songs you mark as favorites</td><td>App storage</td></tr>
+      <tr><td>Listening history</td><td>Play counts, recently played songs, last played song and position</td><td>App storage</td></tr>
+      <tr><td>Lyrics</td><td>Lyrics you paste or save, and lyrics you chose to download</td><td>App storage</td></tr>
+      <tr><td>Settings</td><td>Language, theme, equalizer, playback speed, sleep timer, haptics, lyrics on/off</td><td>App storage</td></tr>
+    </tbody>
+  </table></div>
+  <p style="margin-top:12px">This information is not linked to your identity: the app has no accounts and we never receive it. It is included in your own iCloud or computer backup according to your iOS settings.</p>
+</section>
+
+<section>
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Media &amp; Apple Music.</strong> Requested only when you choose "Import from Apple Music". The app reads the songs you select to copy them into AVO Music. It does not read your library in the background and cannot import DRM-protected tracks. You can withdraw access in iOS Settings &gt; Privacy &amp; Security &gt; Media &amp; Apple Music.</li>
+    <li><strong>Files.</strong> Used only through the iOS file picker, which gives the app access to the audio files you pick, or files you open in the app from elsewhere.</li>
+    <li><strong>Background audio.</strong> Music keeps playing when the app is in the background or the screen is locked. This is playback only.</li>
+    <li><strong>AirPlay and Bluetooth.</strong> Used to send sound to the device you choose. iOS handles device selection.</li>
+  </ul>
+  <p>The app does not request access to your location, contacts, camera, microphone, photos or advertising identifier.</p>
+</section>
+
+<section>
+  <h2>Online lyrics search</h2>
+  <p>This is the app's only network feature. Lyrics are off by default (Settings &gt; Lyrics). A request is made only when you turn lyrics on and tap the search button for a song.</p>
+  <p>The app then sends the following to LRCLIB, a free public lyrics database at lrclib.net, over HTTPS:</p>
+  <ul>
+    <li>the song title and artist name;</li>
+    <li>the album name, if known;</li>
+    <li>the song length in seconds, if known;</li>
+    <li>a search phrase you typed, if you search manually;</li>
+    <li>your device's IP address and a generic app identifier ("AVO Music iOS/1.0"), which any internet request reveals.</li>
+  </ul>
+  <p>The app does not send your audio files, library, playlists, listening history or any identifier of you. LRCLIB is run by a third party under its own terms and practices, which we do not control. Returned lyrics are saved on your device so they can be shown offline. If you never use this feature, the app makes no network requests.</p>
+</section>
+
+<section>
+  <h2>Tracking, ads, analytics and third parties</h2>
+  <p>AVO Music does not track you across other companies' apps or websites and does not use the advertising identifier. It contains no ads, analytics, crash-reporting, social-login or other third-party SDKs. We do not sell, rent or share personal data, and we do not use data for profiling or marketing.</p>
+  <p>The only third-party services involved are those built into iOS (media library, Files, AirPlay), governed by Apple's policies, and LRCLIB, described above.</p>
+</section>
+
+<section>
+  <h2>Retention and deletion</h2>
+  <p>Everything is stored locally, so you decide how long it is kept.</p>
+  <ul>
+    <li><strong>Clear the library:</strong> Settings &gt; Clear Music Library removes your songs, imported audio files, lyrics, play counts and recently played history.</li>
+    <li><strong>Remove single items:</strong> delete songs, playlists, favorites or lyrics individually inside the app.</li>
+    <li><strong>Delete everything:</strong> deleting the app removes all its data from your device. Copies in your own backups follow your backup settings.</li>
+    <li><strong>Data at LRCLIB:</strong> we hold none. Requests made to LRCLIB cannot be deleted through the app; contact LRCLIB directly.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Children</h2>
+  <p>AVO Music does not knowingly collect personal information from anyone, including children under 13 (or the age set by local law). The app has no accounts, ads or social features. Its only online feature is the lyrics search described above.</p>
+</section>
+
+<section>
+  <h2>Your rights</h2>
+  <p>We hold no personal data about you, so there is nothing for us to access, correct, export or delete. Everything the app stores is on your device and you can view or remove it yourself. If you are in the EEA, UK, California or another region with privacy rights, you can still contact us with any question and we will answer it.</p>
+</section>
+
+<section>
+  <h2>Security</h2>
+  <p>Data stays in the app's sandboxed storage protected by iOS, and the lyrics request uses encrypted HTTPS. No method of storage is perfectly secure, so keep your device updated and locked.</p>
+</section>
+
+<section>
+  <h2>Changes to this policy</h2>
+  <p>If the app's data practices change, for example a new feature that uses the network, we will update this policy and its date before the change ships.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="contact">
+    <p><strong>Murodilbek</strong>, developer of AVO Music</p>
+    <p>Email: <a href="mailto:usmonovmurodil0862@icloud.com">usmonovmurodil0862@icloud.com</a></p>
+    <p>Telegram: <a href="https://t.me/murodil1001">@murodil1001</a></p>
+  </div>
+</section>
+
+<footer>© 2026 Murodilbek. AVO Music is an independent app and is not affiliated with Apple Inc.</footer>
+</main>
+</body>
+</html>
